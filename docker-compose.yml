@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  letsencrypt:
+    image: kennylee2008/letsencrypt-alibaba
+    container_name: letsencrypt
+    command: "--domain=${DOMAIN} --dnsProvider=${DNS_PROVIDER:-alibaba} --accessKey=${ACCESS_KEY} --accessSecret=${ACCESS_SECRET} --stage=${STAGE:-TEST}"
+    volumes:
+      - ./certificate:/app/certificate
