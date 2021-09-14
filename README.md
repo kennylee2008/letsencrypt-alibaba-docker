@@ -46,11 +46,11 @@ letsencrypt    | 2021-09-14 06:22:54.848  INFO 1 --- [           main] c.f.letse
 letsencrypt    | 2021-09-14 06:22:54.858  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : No active profile set, falling back to default profiles: default
 letsencrypt    | 2021-09-14 06:22:56.491  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : Started WildcardApplication in 2.635 seconds (JVM running for 3.773)
 letsencrypt    | 2021-09-14 06:22:56.504  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : Starting up...
-letsencrypt    | 2021-09-14 06:22:56.505  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : domain=jobprojectbidding.com
+letsencrypt    | 2021-09-14 06:22:56.505  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : domain=futlabs.com
 letsencrypt    | 2021-09-14 06:22:56.505  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : dnsProvider=alibaba
 letsencrypt    | 2021-09-14 06:22:56.506  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : stage=TEST
-letsencrypt    | 2021-09-14 06:23:00.513  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : Challenge for domain jobprojectbidding.com ...
-letsencrypt    | 2021-09-14 06:23:01.510  INFO 1 --- [           main] c.f.letsencrypt.AlibabaDnsProvider       : Set TXT value to _acme-challenge.jobprojectbidding.com has been completed.
+letsencrypt    | 2021-09-14 06:23:00.513  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : Challenge for domain futlabs.com ...
+letsencrypt    | 2021-09-14 06:23:01.510  INFO 1 --- [           main] c.f.letsencrypt.AlibabaDnsProvider       : Set TXT value to _acme-challenge.futlabs.com has been completed.
 letsencrypt    | 2021-09-14 06:23:01.709  INFO 1 --- [           main] c.f.letsencrypt.WildcardApplication      : Your DNS settings are not yet in effect, wait an additional 30 seconds...
 
 ```
