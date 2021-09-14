@@ -9,6 +9,8 @@ By default, you need to log in to your domain name service provider and set the 
 
 # Usage
 
+You should already have API access to alibaba cloud, if not, please visit https://www.alibabacloud.com/ to request it.
+
 ## 1. Configure the .env file
 
 Variable | Mandatory | Default | Description | Example
